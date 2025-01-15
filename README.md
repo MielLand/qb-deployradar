@@ -1,4 +1,4 @@
-# qb-deployradar
+# qb-deployradar by Miel
 
 A custom FiveM script for deploying and managing speed radars in a server. This script allows police officers to deploy radars, track vehicle speeds, and notify officers when a vehicle exceeds the speed limit.
 
