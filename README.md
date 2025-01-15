@@ -48,3 +48,6 @@ Configuration file for radar settings.
 3. **Add the resource** to your `server.cfg`:
    ```bash
    ensure qb-deployradar
+
+## Support
+**For any questions, join my [Discord](https://discord.gg/uCydYa9s3T) server.**
