@@ -9,6 +9,10 @@ This is a FiveM script that allows police officers to deploy speed radars in-gam
 - **Notifications:** Notifies the officer when a vehicle is speeding.
 - **Easy Integration:** Compatible with QBCore framework.
 
+## Usage
+- **/deployradar [speed]** Deploys a radar at players location.
+- **/removradar** Removes closest radar 
+
 ## Installation
 
 1. **Download the Script:**
