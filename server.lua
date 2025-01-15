@@ -91,7 +91,6 @@ AddEventHandler('playerDropped', function(reason)
         if src == radar.assignedPlayer then
             table.remove(radars, index)
             TriggerClientEvent("MielRadar:RemoveRadar", -1, index)
-            break
         end
     end
 end)
