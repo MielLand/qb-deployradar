@@ -4,12 +4,18 @@ local radars = {}
 local requests = {}
 
 QBCore.Commands.Add("deployradar", "Deploy a speed radar", false, false, function (source, args)
+    local count = 0
     for _, checkradar in ipairs(radars) do
         if checkradar.assignedPlayer == source then
-            TriggerClientEvent("QBCore:Notify", source, "You already have a radar active!", "error")
-            return
+            count = count + 1
         end
     end
+
+    if count >= Config.MaxRadars then
+        TriggerClientEvent("QBCore:Notify", source, "You have the max amount of radars active!", "error")
+        return
+    end
+
     if not isPlayerPolice(source) then
         TriggerClientEvent("QBCore:Notify", source, "You are not a police officer", "error")
         return
