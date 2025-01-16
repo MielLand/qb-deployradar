@@ -8,6 +8,9 @@ A custom FiveM script for deploying and managing speed radars in a server. This 
 - Remove radars when player disconnects.
 - Notify officer when a vehicle exceeds the speed limit in the radar zone.
 
+## Showcase
+- [Video](https://www.youtube.com/watch?v=mtLv1DVM9U0&feature=youtu.be)
+
 ## Config
 
 ### **`config.lua`**
